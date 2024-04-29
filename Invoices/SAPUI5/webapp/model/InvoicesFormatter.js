@@ -13,7 +13,7 @@ function ( ) {
                 case 'B': return resourceBundle.getText("invoiceStatusB");
                 case 'C': return resourceBundle.getText("invoiceStatusC");
                      
-                default: return sStatus;
+                default: return resourceBundle.getText("invoiceStatusA"); //return sStatus;
             }
         },
     }
